@@ -54,7 +54,11 @@ body
 	width: 30%;
 	height: 90%;
 	border-radius: 3px;
-	background-color: rgb(17, 169, 190); /* hsv(187, 91, 74) */
+	background-color: rgb(17, 169, 190); /* default bgcolor settings, hsv(187, 91, 74) */
+	background: -moz-linear-gradient(top, rgb(17, 169, 190), rgb(17, 169, 190) 80%, black);
+	background: -webkit-linear-gradient(top, rgb(17, 169, 190), rgb(17, 169, 190) 80%, black);
+	background: -ms-linear-gradient(top, rgb(17, 169, 190), rgb(17, 169, 190) 80%, black);
+	background: -o-linear-gradient(top, rgb(17, 169, 190), rgb(17, 169, 190) 80%, black);
 }
 .box1
 {
@@ -72,7 +76,11 @@ body
 .box1:hover, .box2:hover, .box3:hover
 {
 	margin-top: 3%;
-    background-color: rgb(105, 191, 19); /* hsv(90, 90, 75) */
+    background-color: rgb(105, 191, 19); /* default bgcolor settings, hsv(90, 90, 75) */
+	background: -moz-linear-gradient(top, rgb(105, 191, 19), rgb(105, 191, 19) 80%, black);
+	background: -webkit-linear-gradient(top, rgb(105, 191, 19), rgb(105, 191, 19) 80%, black);
+	background: -ms-linear-gradient(top, rgb(105, 191, 19), rgb(105, 191, 19) 80%, black);
+	background: -o-linear-gradient(top, rgb(105, 191, 19), rgb(105, 191, 19) 80%, black);
 }
 #folder
 {
