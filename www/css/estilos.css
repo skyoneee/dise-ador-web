@@ -49,61 +49,30 @@ body
 	margin-bottom: 5%;
 	
 }
-.box
+.box1, .box2, .box3
 {
 	width: 30%;
 	height: 90%;
+	border-radius: 3px;
+	background-color: rgb(17, 169, 190);
+}
+.box1
+{
 	margin-right: 5%;
 	float: left;
-        border-radius: 3px 3px 3px 3px;
-        background-color: rgb(17, 169, 190);
 }
 .box2
 {
-	width: 30%;
-	height: 90%;
-	margin-bottom:20px;
 	float: left;
-        border-radius: 3px 3px 3px 3px;
-        background-color: rgb(17, 169, 190);
 }
 .box3
 {
-	width: 30%;
-	height: 90%;
 	float: right;
-	border-radius: 3px 3px 3px 3px;
-        background-color: rgb(17, 169, 190);
 }
-.box:hover
+.box1:hover, .box2:hover, .box3:hover
 {
-	width: 30%;
-	height: 90%;
-        margin-top: 3%;
-	margin-right: 5%;
-	float: left;
-        border-radius: 3px 3px 3px 3px;
-        background-color: rgb(17, 169, 204);
-
-}
-.box2:hover
-{
-	width: 30%;
-	height: 90%;
 	margin-top: 3%;
-	margin-bottom:20px;
-	float: left;
-        border-radius: 3px 3px 3px 3px;
-        background-color: rgb(17, 169, 204);
-}
-.box3:hover
-{
-	width: 30%;
-	height: 90%;
-	float: right;
-        margin-top: 3%;
-	border-radius: 3px 3px 3px 3px;
-        background-color: rgb(17, 169, 204);
+    background-color: rgb(17, 169, 204);
 }
 #folder
 {
