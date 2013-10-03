@@ -56,8 +56,8 @@ body
 {
 	width: 30%;
 	height: 70%;
-    border-radius: 3px 3px 3px 3px;
-    background-color: rgb(0, 133,184);
+    border-radius: 3px;
+    background-color: rgb(0, 133, 184);
 
 }
 .box1
@@ -106,7 +106,7 @@ body
 {
 	width: 7%;
 	height: 100%;
-	border-radius: 50% 50% 50% 50%;
+	border-radius: 50%;
 	float: left;
 }
 
@@ -120,7 +120,10 @@ body
 	color: #FFF;
 	float: left;
 }
-.avatar{ border-radius: 50% 50% 50% 50%;}
+.avatar
+{
+	border-radius: 50%;
+}
 .conf
 {
 	width: 4%;
@@ -139,7 +142,7 @@ body
 {
 	width: 7%;
 	height: 100%;
-	border-radius: 50% 50% 50% 50%;
+	border-radius: 50%;
 	float: left;
 }
 
@@ -189,7 +192,7 @@ body
 	height: 150px;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	border-width: 1px 1px 1px;
+	border-width: 1px;
     border-style: solid;
     border-color: rgb(216, 216, 216);
     -moz-border-top-colors: none;
@@ -197,7 +200,7 @@ body
     -moz-border-bottom-colors: none;
     -moz-border-left-colors: none;
     border-image: none;
-    border-radius: 3px 3px 3px 3px;
+    border-radius: 3px;
     background-color: rgb(255, 255, 255);
 
 }
