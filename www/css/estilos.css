@@ -195,7 +195,6 @@ body
 }
 #folder * * {
 	color: #ccc;
-	font-size: 90%;
 	font-family: Verdana;
 }
 .logo2
@@ -220,8 +219,8 @@ body
 	width: 422px;
 	height: 453px;
 	z-index: -1;
-	left: 837px;
-	top: 550px;
+	left: 1200px;
+	top: 750px;
 	visibility: auto;
 }
 h2
@@ -231,5 +230,5 @@ h2
 li
 {
 	padding-top:1%;
-	font-size: 20;
+	font-size: 24;
 }
