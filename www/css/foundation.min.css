@@ -716,30 +716,11 @@ h4
 	padding:0;
 	position:relative
 }
-.orbit-container .orbit-slides-container img
-{
-	display:block
-}
 .orbit-container .orbit-slides-container>*
 {
 	position:relative;
 	float:left;
 	height:100%
-}
-.orbit-container .orbit-slides-container>* .orbit-caption
-{
-	position:absolute;
-	bottom:0;
-	background-color:#000;
-	background-color:rgba(0,0,0,0.6);
-	color:#fff;
-	width:100%;
-	padding:10px 14px;
-	font-size:0.875em
-}
-.orbit-container .orbit-slides-container>* .orbit-caption *
-{
-	color:#fff
 }
 .orbit-container .orbit-slide-number
 {
@@ -898,24 +879,6 @@ h4
 	list-style:none;
 	line-height:1
 }
-.pricing-table .title
-{
-	background-color:#ddd;
-	padding:0.9375em 1.25em;
-	text-align:center;
-	color:#333;
-	font-weight:bold;
-	font-size:1em
-}
-.pricing-table .price
-{
-	background-color:#eee;
-	padding:0.9375em 1.25em;
-	text-align:center;
-	color:#333;
-	font-weight:normal;
-	font-size:1.25em
-}
 .pricing-table .description
 {
 	background-color:#fff;
@@ -925,16 +888,6 @@ h4
 	font-size:0.75em;
 	font-weight:normal;
 	line-height:1.4;
-	border-bottom:dotted 1px #ddd
-}
-.pricing-table .bullet-item
-{
-	background-color:#fff;
-	padding:0.9375em;
-	text-align:center;
-	color:#333;
-	font-size:0.875em;
-	font-weight:normal;
 	border-bottom:dotted 1px #ddd
 }
 .pricing-table .cta-button

@@ -316,30 +316,13 @@ label {
 	background-clip: padding-box;
 	background-color: #fff;
 }
-
-.pricing-table .title {
-	font-size: 34px; 
-	font-family: 'Cabin Condensed', sans-serif;
-	background: transparent;
-	padding-bottom: 0;
-}
 .pricing-table .description {
 	font-size: 16px;
 	font-weight: 200;
 	border-bottom: none;
 }
-.pricing-table .price{
-	font-weight: 200;
-	background-color: #f3f3f3;
-	margin-bottom: 20px;
-}
 .pricing-table ul {
 	margin-bottom: 0;
-}
-.pricing-table .bullet-item {
-	margin: 0 40px;
-	font-size: 16px;
-	font-weight: 200;
 }
 .pricing-table .bullet-item:last-child {
 	border-bottom: none;
@@ -356,9 +339,7 @@ label {
 
 .featured {background:#4e97cc; border:1px solid #4e97cc;}
 .pricing-table.featured .description, .pricing-table.featured .title{background:#4e97cc;color:#fff;}
-.pricing-table.featured .price { background:#fff; color:#f06060; }
 .pricing-table.featured .button { background:#fff; color:#f06060; border:0;}
-.pricing-table.featured .bullet-item {background:#4e97cc;color:#fff;}
 
 /* Footer */
 footer {
