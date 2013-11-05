@@ -256,6 +256,18 @@ label {
 	background: #4e97cc;
 }
 
+/* Items */
+
+.item
+{
+	margin:0.9375em 0;
+	padding-top:0.9375em;
+	padding-bottom:0.9375em;
+	background-color:white;
+	border:1px solid #ccc;
+	border-radius:3px;
+}
+
 /* Random Quote */
 .quotes {
 	padding-bottom: 0px;
@@ -441,6 +453,15 @@ footer a.icon:hover {
 	.pricing-table .price-table-features {
 		display: none;
 	}
+	.item p
+	{
+		padding-top:0.9375em;
+	}
+	.screenshot
+	{
+		margin-left:auto;
+		margin-right:auto;
+	}
 
 }
 @media (max-width: 568px) {
@@ -449,6 +470,10 @@ footer a.icon:hover {
 	}
 	.section .subheading {
 		font-size: 18px;
+	}
+	.item p
+	{
+		padding-top:0.9375em;
 	}
 }
 
