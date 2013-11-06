@@ -329,8 +329,6 @@ label {
 	background-color: #fff;
 }
 .pricing-table .description {
-	font-size: 16px;
-	font-weight: 200;
 	border-bottom: none;
 }
 .pricing-table ul {
@@ -350,8 +348,6 @@ label {
 }
 
 .featured {background:#4e97cc; border:1px solid #4e97cc;}
-.pricing-table.featured .description, .pricing-table.featured .title{background:#4e97cc;color:#fff;}
-.pricing-table.featured .button { background:#fff; color:#f06060; border:0;}
 
 /* Footer */
 footer {
@@ -433,12 +429,8 @@ footer a.icon:hover {
 		margin-bottom: 50px;
 		max-height: 400px;
 	}
-	header h1,
-	header .large-8 h1 {
+	header h1 {
 		margin-top: 10px;
-	}
-	header .large-8 {
-		padding-left: 0.9375em;
 	}
 	.top-bar .top-bar-section ul li>a.button  {
 		color: white;

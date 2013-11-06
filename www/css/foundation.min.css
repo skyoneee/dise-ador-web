@@ -868,31 +868,18 @@ h4
 {
 	display:block
 }
-.pricing-table
-{
-	border:solid 1px #ddd;
-	margin-left:0;
-	margin-bottom:1.25em
-}
 .pricing-table *
 {
 	list-style:none;
-	line-height:1
 }
 .pricing-table .description
 {
 	background-color:#fff;
 	padding:0.9375em;
 	text-align:center;
-	color:#777;
-	font-size:0.75em;
-	font-weight:normal;
-	line-height:1.4;
-	border-bottom:dotted 1px #ddd
 }
 .pricing-table .cta-button
 {
-	background-color:#f5f5f5;
 	text-align:center;
-	padding:1.25em 1.25em 0
+	padding:1.25em 1.25em 0;
 }
