@@ -74,7 +74,7 @@ body {font-family: 'Noto Sans', sans-serif;}
 						0 16px 0 1px #222,
 						0 22px 0 1px #222;
 	box-shadow: 0 10px 0 1px #222,
-				0 16px 0 1px #222,
+				0 16px 0 1px #222,
 				0 22px 0 1px #222;
 }
 .top-bar.expanded .toggle-topbar.menu-icon a,
@@ -86,7 +86,7 @@ body {font-family: 'Noto Sans', sans-serif;}
 						0 16px 0 1px #888,
 						0 22px 0 1px #888;
 	box-shadow: 0 10px 0 1px #888,
-				0 16px 0 1px #888,
+				0 16px 0 1px #888,
 				0 22px 0 1px #888;
 }
 .top-bar .active a {
@@ -147,7 +147,6 @@ header .large-8 {
 }
 .button.secondary {
 	color: #666;
-	 
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
 	border-radius: 4px;
@@ -155,13 +154,9 @@ header .large-8 {
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	background-color: #f3f3f3;
-	
 }
 .button:hover, .button:focus {
 background-color: #f06060;
-}
-a:hover, a:focus {
-color: #f06060;
 }
 .button.white {
 	clear: both;
@@ -197,18 +192,24 @@ color: #f06060;
 	padding: 30px 0;
 	border-bottom: 1px solid rgba(255,255,255,0.1);
 }
-.section.screenshot {
+.section.paper {
 	background: rgb(103,116,151);
 }
 
 /* Features */
 .feature {
 	text-align: center;
+	color: rgb(229, 229, 229);
 	padding-top: 30px;
 }
 .feature h3 {
-	font-size: 24px;
-	color: rgb(229,229,229);
+	font-size: 1.5em;
+}
+.feature a:hover {
+	color: rgb(78, 151, 204) !important;
+}
+.feature a:visited {
+	color: rgb(229, 229, 229);
 }
 .feature p {
 	font-size: 14px;
@@ -334,20 +335,9 @@ label {
 .pricing-table ul {
 	margin-bottom: 0;
 }
-.pricing-table .bullet-item:last-child {
-	border-bottom: none;
-}
 .pricing-table .cta-button {
 	background-color: transparent;
 }
-.pricing-table.featured .title {
-	color: #4e97cc;
-}
-.pricing-table .price-table-toggle {
-	display: none;
-}
-
-.featured {background:#4e97cc; border:1px solid #4e97cc;}
 
 /* Footer */
 footer {

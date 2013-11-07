@@ -12,8 +12,6 @@ html,body
 }
 body
 {
-	background: #fff;	
-	color: #222;
 	padding: 0;
 	margin: 0;
 	font-weight: normal;
@@ -26,10 +24,6 @@ img,object,embed
 {
 	max-width:100%;
 	height:auto
-}
-object,embed
-{
-	height:100%
 }
 .left
 {
@@ -192,27 +186,10 @@ select
 	float:none
 }
 }
-p.lead
-{
-	font-size:1.21875em;
-	line-height:1.6
-}
-.subheader
-{
-	line-height:1.4;
-	color:#6f6f6f;
-	font-weight:300;
-	margin-top:0.2em;
-	margin-bottom:0.5em
-}
 a
 {
-	color:#fcb040;
 	text-decoration:none;
 	line-height:inherit
-}
-a:hover,a:focus
-{
 }
 a img
 {
@@ -237,7 +214,6 @@ h1,h2,h3,h4,h5,h6
 	font-family: 'Cabin Condensed', sans-serif;
 	font-weight:bold;
 	font-style:normal;
-	color:#222;
 	text-rendering:optimizeLegibility;
 	margin-top:0.2em;
 	margin-bottom:0.5em;
@@ -316,7 +292,6 @@ ol li ol
 abbr,acronym
 {
 	font-size:90%;
-	color:#222;
 	border-bottom:1px dotted #ddd;
 	cursor:help
 }
@@ -581,7 +556,8 @@ h4
 }
 .top-bar-section ul li>a:hover
 {
-	background:#2b2b2b
+	background:#2b2b2b;
+	color:rgb(78, 151, 204) !important;
 }
 .top-bar-section ul li>a.button
 {
@@ -590,7 +566,7 @@ h4
 }
 .top-bar-section ul li>a.button:hover
 {
-	background:#fb9b0e
+	background:#fb9b0e;
 }
 .top-bar-section ul li>a.button.secondary
 {
