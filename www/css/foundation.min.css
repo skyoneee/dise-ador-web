@@ -343,20 +343,13 @@ h4
 	font-weight:bold;
 	line-height:1;
 	margin:0 0 1.25em;
+	padding:0.75em 1.5em;
 	position:relative;
 	text-decoration:none;
 	text-align:center;
 	display:inline-block;
-	padding-top:0.75em;
-	padding-right:1.5em;
-	padding-bottom:0.8125em;
-	padding-left:1.5em;
 	font-size:1em;
-	color:#fff
-}
-.button:hover,.button:focus
-{
-	color:#fff
+	color:#fff;
 }
 .button.secondary
 {
@@ -394,11 +387,6 @@ h4
 	-webkit-border-radius:1000px;
 	border-radius:1000px
 }
-}
-.contain-to-grid
-{
-	width:100%;
-	background:#111
 }
 .fixed
 {
@@ -440,20 +428,6 @@ h4
 	height:45px;
 	margin:0;
 	font-size:16px
-}
-.top-bar .name h1
-{
-	line-height:45px;
-	font-size:1.0625em;
-	margin:0
-}
-.top-bar .name h1 a
-{
-	font-weight:bold;
-	color:#fff;
-	width:50%;
-	display:block;
-	padding:0 15px
 }
 .top-bar .toggle-topbar
 {
