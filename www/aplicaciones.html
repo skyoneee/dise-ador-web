@@ -28,7 +28,36 @@
 	</div>
 </div>
 
-<div id="pricing-table" class="section pricing gray3">
+<div id="pricing-table" class="section pricing gray4">
+	<div class="row price-table">
+		<div id="bor" class="large-12 columns usu bor">
+            <h3>Aplicaciones para tus plantillas</h3>
+            <hr/>
+        	<form name="login" action="index_submit" method="get" accept-charset="utf-8">
+				<input id="buscador" type="text" name="buscar" placeholder="buscar..." required>
+				<select id="tipo" name="tipos">
+                  <option>Todo</option>
+                  <option>Plantillas</option>
+                  <option>Menú</option>
+                  <option>Buscador</option>
+                  <option>Botones</option>
+                  <option>Cajas</option>
+                </select>
+                <select id="precio" name="precios">
+                  <option>Todo</option>
+                  <option>Gratis</option>
+                  <option>2€</option>
+                  <option>5€</option>
+                  <option>10€</option>
+                  <option>50€</option>
+                </select>
+				<input id="busca" type="submit" value="Buscar">
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="pricing-table" class="section pricing gray2">
 	<div class="row price-table">
 		<div class="large-12 columns item">
 			<div class="large-4 columns">
@@ -60,6 +89,25 @@
 		</div>
 	</div>
 </div>
+
+<footer>
+	<div class="row">
+	  <div class="large-6 columns">
+	    <div class="large-6 columns">
+	      <ul class="inline-list left">
+	        <li class="copyright">2013 &copy; Diseñador Web</li>
+          </ul>
+        </div>
+	  </div>
+	  <div class="large-6 columns">
+		  <ul class="inline-list right">
+				<li><a href="http://www.facebook.com" class="icon icon-facebook"></a></li>
+				<li><a href="http://twitter.com" class="icon icon-twitter"></a></li>
+				<li><a href="https://plus.google.com" class="icon icon-googleplus"></a></li>
+			</ul>
+		</div>
+	</div>
+</footer>
 
 <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
 <script type="text/javascript" src="js/foundation.min.js"></script>
