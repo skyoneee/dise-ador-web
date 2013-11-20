@@ -455,18 +455,6 @@ h4
 	-webkit-box-shadow:0 10px 0 1px #fff,0 16px 0 1px #fff,0 22px 0 1px #fff;
 	box-shadow:0 10px 0 1px #fff,0 16px 0 1px #fff,0 22px 0 1px #fff
 }
-.top-bar.expanded
-{
-	height:auto;
-}
-.top-bar.expanded .title-area
-{
-	background:#111
-}
-.top-bar.expanded .toggle-topbar a
-{
-	color:#888
-}
 .top-bar-section
 {
 	left:0;
