@@ -100,35 +100,44 @@ header .large-8 {
 
 /* Buttons */
 .button {
-	padding-left: 40px;
-	padding-right: 40px;
+	position:relative;
+	display:inline-block;
+	cursor:pointer;
+	line-height:1;
+	font-family:inherit;
+	font-weight:bold;
+	text-decoration:none;
+	text-align:center;
 	-webkit-transition: all 0.4s ease-in-out;  /* Chrome 1-25, Safari 3.2+ */
      -moz-transition: all 0.4s ease-in-out;  /* Firefox 4-15 */
        -o-transition: all 0.4s ease-in-out;  /* Opera 10.50–12.00 */
           transition: all 0.4s ease-in-out;  /* Chrome 26, Firefox 16+, IE 10+, Opera 12.50+ */
-	-moz-border-radius: 4px;
-	-webkit-border-radius: 4px;
-	border-radius: 4px;
-	background-color: #4e97cc;	
 	-moz-box-shadow: none;
 	-webkit-box-shadow: none;
 	box-shadow: none;
-}
-.button.secondary {
-	color: #666;
+	border:solid 1px;
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
 	border-radius: 4px;
+	margin:0 0 1.25em;
+	padding:0.75em 1.5em;
+}
+.button.secondary {
+	color: rgb(102, 102, 102);
+	border-color: rgb(208, 208, 208);
 	-moz-background-clip: padding;
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
-	background-color: #f3f3f3;
+	background-color: rgb(243, 243, 243);
+}
+.button.secondary:hover,.button.secondary:focus
+{
+	background-color: rgb(208, 208, 208);
 }
 
 /* Section */
-
 .section.gray {
-	background:rgb(103,116,151);
+	background: rgb(103, 116, 151);
 	padding: 30px 0;
 }
 .section.gray2 {
