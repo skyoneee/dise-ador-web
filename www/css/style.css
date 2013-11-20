@@ -363,6 +363,9 @@ footer a.icon:hover {
 	.top-bar.expanded .top-bar-section li a:not(.button) {
 		line-height: 78px;
 	}
+	.top-bar.expanded .top-bar-section li {
+		border-top: 0px; /* oculto los separadores del menú cuando está desplegado */
+	}
 }
 @media (max-width: 767px) {
 	#top {
