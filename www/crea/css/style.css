@@ -5,6 +5,7 @@
 	{
 		margin: 0;
 	}
+
 	body
 	{
 		background: #fff;
@@ -58,7 +59,7 @@
 /*********************************************************************************/
 	#main
 	{
-		height: 100%;
+		height: 1000px;
 		margin-left:70px;
 		margin-right:240px;
 		border: 1px solid #F00;
