@@ -40,18 +40,15 @@
 		width: 100%;
 	}
 
-	#nav ul li
+	#toolbar .tool
 	{
-		width: 100%;
-		list-style:none;
-		margin-left: -24px;
-		padding-bottom: 12px;
-		padding-top: 12px;
+		width: inherit;
+		padding: 12px 16px;
 	}
-	
-	#nav ul li:hover
+
+	#toolbar .tool:hover
 	{
-		background: rgba(255,255,255,0.1);
+		background: rgba(0, 0, 0, 0.5);
 	}
 	
 /*********************************************************************************/
