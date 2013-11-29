@@ -76,17 +76,37 @@
 		return deleted;
 	}
 
-	function modDiv(id,width,height,bgcolor,border,margin,padding) {
+	function modW(id,width) {
 		divs[id].setW(width);
+		return divs[id];
+	}
+	
+	function modH(id,height) {
 		divs[id].setH(height);
+		return divs[id];
+	}
+	
+	function modBG(id,bgcolor) {
 		divs[id].setBG(bgcolor);
+		return divs[id];
+	}
+	
+	function modB(id,border) {
 		divs[id].setB(border);
+		return divs[id];
+	}
+	
+	function modM(id,margin) {
 		divs[id].setM(margin);
+		return divs[id];
+	}
+	
+	function modP(id,padding) {
 		divs[id].setP(padding);
 		return divs[id];
 	}
 
-	function countdivs() {
+	function countDivs() {
 		return numdivs;
 	}
 
@@ -94,8 +114,13 @@
 		addDiv: addDiv,
 		getDiv: getDiv,
 		delDiv: delDiv,
-		modDiv: modDiv,
-		countdivs: countdivs,
+		modW: modW,
+		modH: modH,
+		modBG: modBG,
+		modB: modB,
+		modM: modM,
+		modP: modP,
+		countDivs: countDivs,
 		reset: reset
 	};
 

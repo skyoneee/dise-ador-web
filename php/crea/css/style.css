@@ -20,10 +20,10 @@
 		position: fixed;
 		top: 0;
 		left: 0;
-		width: 70px;
+		width: 48px;
 		height: 100%;
 	}
-		#header2
+	#header2
 	{
 		background: rgb(45,45,45);
 		position: fixed;
@@ -32,29 +32,64 @@
 		width: 240px;
 		height: 100%;
 	}
-	
-	#nav ul li
+	#header .top
 	{
+		position: absolute;
+		left: 0;
+		top: 0;
 		width: 100%;
-		list-style:none;
-		margin:0px;
-		padding-bottom: 15px;
-		padding-top: 15px;
 	}
-	
-	#nav ul li:hover
+
+	#toolbar .tool
 	{
-		background: rgba(0,0,0,0.1);
+		width: inherit;
+		padding: 12px 16px;
+	}
+
+	#toolbar .tool:hover
+	{
+		background: rgba(0, 0, 0, 0.5);
 	}
 	
 /*********************************************************************************/
 /* Main                                                                        */
 /*********************************************************************************/
-
 	#main
 	{
 		height: 1000px;
-		margin-left:70px;
+		margin-left:48px;
 		margin-right:240px;
 		border: 1px solid #F00;
+	}
+	button.borrar {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		background: none;
+		font-size: 100%;
+		vertical-align: baseline;
+		font-family: inherit;
+		color: inherit;
+		-webkit-appearance: none;
+		-ms-appearance: none;
+		-o-appearance: none;
+		appearance: none;
+	}
+	.borrar {
+		display: block;
+		position: relative;
+		float: right;
+		width: 40px;
+		height: 40px;
+		font-size: 22px;
+		color: #000;
+		-webkit-transition: all 0.2s;
+		transition: all 0.2s;
+	}
+	.borrar:hover {
+		font-size: 32px;
+		color: red;
+	}
+	.borrar:after {
+		content: '✖';
 	}
