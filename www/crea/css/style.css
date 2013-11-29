@@ -61,3 +61,35 @@
 		margin-right:240px;
 		border: 1px solid #F00;
 	}
+	button.borrar {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		background: none;
+		font-size: 100%;
+		vertical-align: baseline;
+		font-family: inherit;
+		color: inherit;
+		-webkit-appearance: none;
+		-ms-appearance: none;
+		-o-appearance: none;
+		appearance: none;
+	}
+	.borrar {
+		display: block;
+		position: relative;
+		float: right;
+		width: 40px;
+		height: 40px;
+		font-size: 22px;
+		color: #000;
+		-webkit-transition: all 0.2s;
+		transition: all 0.2s;
+	}
+	.borrar:hover {
+		font-size: 32px;
+		color: red;
+	}
+	.borrar:after {
+		content: '✖';
+	}
