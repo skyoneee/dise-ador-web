@@ -27,6 +27,19 @@
 	}
 	#header2
 	{
+	    display: block;
+		background: rgb(45,45,45);
+		position: fixed;
+		top: 0;
+		right: 0;
+		width: 240px;
+		height: 100%;
+		float: right;
+	}
+	
+	#header3
+	{
+	    display: none;
 		background: rgb(45,45,45);
 		position: fixed;
 		top: 0;
@@ -96,8 +109,9 @@
 	}
 	.borrar {
 		display: block;
-		position: relative;
-		float: right;
+		position: absolute;
+		top: 0;
+		right: 0;
 		width: 40px;
 		height: 40px;
 		font-size: 22px;
