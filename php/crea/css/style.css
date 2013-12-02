@@ -27,7 +27,6 @@
 	}
 	#header2
 	{
-	    display: block;
 		background: rgb(45,45,45);
 		position: fixed;
 		top: 0;
@@ -36,17 +35,11 @@
 		height: 100%;
 		float: right;
 	}
-	
-	#header3
+
+	#div-settings,
+	#img-settings
 	{
-	    display: none;
-		background: rgb(45,45,45);
-		position: fixed;
-		top: 0;
-		right: 0;
-		width: 240px;
-		height: 100%;
-		float: right;
+		display:none;
 	}
 
 	#header .top

@@ -125,8 +125,8 @@
 		}
 
         document.getElementById('div').onclick = function() {
-		    document.getElementById('header2').style.display = 'block';
-			document.getElementById('header3').style.display = 'none';
+		    document.getElementById('div-settings').style.display = 'block';
+			document.getElementById('img-settings').style.display = 'none';
 			var main = document.getElementById('main');
 			var div  = document.createElement('div');
 			div.onclick = function() {modDiv(this)};
@@ -155,8 +155,8 @@
         };
 
         document.getElementById('li').onclick = function() {
-		    document.getElementById('header2').style.display = 'block';
-			document.getElementById('header3').style.display = 'none';
+		    document.getElementById('div-settings').style.display = 'block';
+			document.getElementById('img-settings').style.display = 'none';
 			var main = document.getElementById('main');
 			var div  = document.createElement('div');
 			div.onmouseout = "this.style.border=0";
@@ -222,8 +222,8 @@
         };
 		
 		document.getElementById('img').onclick = function() {
-		    document.getElementById('header2').style.display = 'none';
-			document.getElementById('header3').style.display = 'block';
+		    document.getElementById('div-settings').style.display = 'none';
+			document.getElementById('img-settings').style.display = 'block';
 			var main = document.getElementById('main');
 			var div  = document.createElement('div');
 			div.onclick = function() {modImg(this)};
