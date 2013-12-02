@@ -100,6 +100,11 @@
 	{
 		text-align: center;
 	}
+
+	abbr
+	{
+		border-bottom: 1px dotted;
+	}
 	
 /*********************************************************************************/
 /* Main                                                                        */
@@ -117,10 +122,9 @@
 		padding: 0;
 		border: 1px solid rgba(0, 0, 0, 0.2);
 		background: rgba(255, 255, 255, 0.1);
-		font-size: 100%;
+		font-size: 1em;
 		vertical-align: baseline;
 		font-family: inherit;
-		color: inherit;
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		-o-appearance: none;
@@ -129,20 +133,13 @@
 	.borrar,
 	.editar {
 		display: block;
-		position: absolute;
-		top: 0;
+		float: right;
 		width: 30px;
 		height: 30px;
-		font-size: 22px;
+		font-size: 1.375em;
 		color: #000;
 		-webkit-transition: all 0.2s;
 		transition: all 0.2s;
-	}
-	.borrar {
-		right: 0px;
-	}
-	.editar {
-		right: 30px;
 	}
 	.borrar:hover,
 	.editar:hover {
@@ -153,4 +150,6 @@
 		content: '✖';
 	}
 	.editar:after {
-		content: 'o';
+		font-family: "DejaVu Sans Mono", "Segoe UI Symbol";
+		content: '⚙';
+	}
