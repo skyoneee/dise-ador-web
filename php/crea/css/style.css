@@ -94,6 +94,12 @@
 	{
 		font-size: 1.25em;
 	}
+
+	.setting-header,
+	.setting-buttons
+	{
+		text-align: center;
+	}
 	
 /*********************************************************************************/
 /* Main                                                                        */
@@ -105,11 +111,12 @@
 		margin-right: 240px;
 		border: 1px solid #F00;
 	}
-	button.borrar {
+	button.borrar,
+	button.editar {
 		margin: 0;
 		padding: 0;
-		border: 0;
-		background: none;
+		border: 1px solid rgba(0, 0, 0, 0.2);
+		background: rgba(255, 255, 255, 0.1);
 		font-size: 100%;
 		vertical-align: baseline;
 		font-family: inherit;
@@ -119,22 +126,31 @@
 		-o-appearance: none;
 		appearance: none;
 	}
-	.borrar {
+	.borrar,
+	.editar {
 		display: block;
 		position: absolute;
 		top: 0;
-		right: 0;
-		width: 40px;
-		height: 40px;
+		width: 30px;
+		height: 30px;
 		font-size: 22px;
 		color: #000;
 		-webkit-transition: all 0.2s;
 		transition: all 0.2s;
 	}
-	.borrar:hover {
+	.borrar {
+		right: 0px;
+	}
+	.editar {
+		right: 30px;
+	}
+	.borrar:hover,
+	.editar:hover {
 		font-size: 32px;
 		color: red;
 	}
 	.borrar:after {
 		content: '✖';
 	}
+	.editar:after {
+		content: 'o';

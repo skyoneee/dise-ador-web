@@ -125,6 +125,9 @@
 			div.parentNode.removeChild(div);
 		}
 
+		function editDiv(div) {
+		}
+
 		document.getElementById('div').onclick = function() {
 			document.getElementById('div-settings').style.display = 'block';
 			document.getElementById('img-settings').style.display = 'none';
@@ -148,8 +151,12 @@
 			button.onclick = function() {
 				delDiv(this);
 			};
-
 			div.appendChild(button);
+
+			var button = document.createElement("button");
+			button.className = 'editar';
+			div.appendChild(button);
+
 			main.appendChild(div);
 			
 		};
@@ -218,6 +225,10 @@
 			};
 
 			div.appendChild(button);
+
+			var button = document.createElement("button");
+			button.className = 'editar';
+			div.appendChild(button);
 			main.appendChild(div);
 		};
 		
@@ -243,11 +254,23 @@
 			};
 
 			div.appendChild(button);
+
+			var button = document.createElement("button");
+			button.className = 'editar';
+			div.appendChild(button);
 			main.appendChild(div);
+		};
+
+		document.getElementById('div-editar').onclick = function() {
+			document.getElementById('div-settings').style.display = 'block';
 		};
 
 		document.getElementById('div-cancelar').onclick = function() {
 			document.getElementById('div-settings').style.display = 'none';
+		};
+
+		document.getElementById('img-editar').onclick = function() {
+			document.getElementById('img-settings').style.display = 'block';
 		};
 
 		document.getElementById('img-cancelar').onclick = function() {

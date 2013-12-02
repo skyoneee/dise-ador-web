@@ -23,8 +23,12 @@
 			DIV_APP.delDiv(divs.getId());
 			parent.delDivUI(that);
 		};
-
 		divc.appendChild(button);
+
+		var button = document.createElement("button");
+		button.className = 'editar';
+		divc.appendChild(button);
+
 		this.divs = divs;
 		this.container = divc;
 		this.remover = button;
