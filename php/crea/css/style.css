@@ -9,7 +9,6 @@
 	body
 	{
 		background: #fff;
-		font-size: 12px;
 	}
 /*********************************************************************************/
 /* Header                                                                        */
@@ -21,9 +20,8 @@
 		position: fixed;
 		top: 0;
 		left: 0;
-		width: 5em;
+		width: 48px;
 		height: 100%;
-		float: left;
 	}
 	#header2
 	{
@@ -33,7 +31,6 @@
 		right: 0;
 		width: 240px;
 		height: 100%;
-		float: right;
 	}
 
 	#div-settings,
@@ -45,6 +42,8 @@
 	#header .top
 	{
 		position: absolute;
+		left: 0;
+		top: 0;
 		width: 100%;
 	}
 
@@ -60,22 +59,12 @@
 	#toolbar .tool
 	{
 		width: inherit;
-		padding: 0.3em 0.5em;
+		padding: 12px 16px;
 	}
 
 	#toolbar .tool:hover
 	{
-		background: rgb(0, 0, 0);
-	}
-
-	input
-	{
-		margin: 2px;
-	}
-
-	input:focus
-	{
-		background-color: rgb(255, 255, 160);
+		background: rgba(0, 0, 0, 0.5);
 	}
 
 	.setting,
@@ -101,8 +90,8 @@
 	#main
 	{
 		height: 1000px;
-		margin-left: 5em;
-		margin-right: 240px;
+		margin-left:48px;
+		margin-right:240px;
 		border: 1px solid #F00;
 	}
 	button.borrar {
