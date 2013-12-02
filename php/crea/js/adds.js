@@ -1,24 +1,25 @@
 (function() {
 	var id = 1;
 	var idUl = 1;
-    window.onload = function() {
+	window.onload = function() {
 		document.getElementById('main').ondragstart = function (event) {
-            event.dataTransfer.setData("Text",event.target.id);
-        }
+			event.dataTransfer.setData("Text",event.target.id);
+		}
 		
 		document.getElementById('main').ondrop = function (event) {
-            event.preventDefault();
-            event.target.appendChild(document.getElementById(event.dataTransfer.getData("Text")));
-        }
+			event.preventDefault();
+			event.target.appendChild(document.getElementById(event.dataTransfer.getData("Text")));
+		}
 		
 		function modDiv(div) {
-            document.getElementById('w').value= String(div.style.width);
+			document.getElementById('w').value= String(div.style.width);
 			document.getElementById('h').value= String(div.style.height);
 			document.getElementById('bg').value= String(div.style.background);
 			document.getElementById('b').value= String(div.style.border);
 			document.getElementById('m').value= String(div.style.margin);
 			document.getElementById('p').value= String(div.style.padding);
 			var ancho,alto,bgdiv,borde,margen,pad;
+
 			document.getElementById('w').onkeypress = function(event) {
 				if (event.keyCode === 13) {
 					this.blur();
@@ -27,6 +28,7 @@
 				   ancho= event.target.value;
 				});
 			};
+
 			document.getElementById('h').onkeypress = function(event) {
 				if (event.keyCode === 13) {
 					this.blur();
@@ -35,24 +37,25 @@
 				   alto= event.target.value;
 				});
 			};
+
 			document.getElementById('bg').onkeypress = function(event) {
 				if (event.keyCode === 13) {
 					this.blur();
 				}
 				bg.addEventListener('blur', function() {
 				   bgdiv= event.target.value;
-				});
-				
-			};	
+				});				
+			};
+
 			document.getElementById('b').onkeypress = function(event) {
 				if (event.keyCode === 13) {
 					this.blur();
 				}
 				bg.addEventListener('blur', function() {
 				   borde= event.target.value;
-				});
-				
+				});				
 			};
+
 			document.getElementById('m').onkeypress = function(event) {
 				if (event.keyCode === 13) {
 					this.blur();
@@ -62,18 +65,17 @@
 				});
 				
 			};
+
 			document.getElementById('p').onkeypress = function(event) {
 				if (event.keyCode === 13) {
 					this.blur();
 				}
 				bg.addEventListener('blur', function() {
 				   pad= event.target.value;
-				});
-				
+				});				
 			};
-
 			
-			document.getElementById('enviar').onclick = function() {
+			document.getElementById('div-enviar').onclick = function() {
 				div.style.width = ancho;
 				div.style.height = alto;
 				div.style.background = bgdiv;
@@ -81,10 +83,10 @@
 				div.style.margin = margen;
 				div.style.padding = pad;
 			};
+		}
 
-        }
 		function modImg(div) {
-            document.getElementById('w1').value= String(div.style.width);
+			document.getElementById('w1').value= String(div.style.width);
 			document.getElementById('h1').value= String(div.style.height);
 			document.getElementById('img').value= String(div.innerHTML);
 			var anchoi,altoi,urlimg;
@@ -110,22 +112,21 @@
 				}
 				bg.addEventListener('blur', function() {
 				   urlimg= event.target.value;
-				});
-				
+				});				
 			};	
-			document.getElementById('enviar1').onclick = function() {
+			document.getElementById('img-enviar').onclick = function() {
 				div.style.width = anchoi;
 				div.style.height = altoi;
 				div.innerHTML = urlimg;
 			};
 
-        }
+		}
 		function delDiv(div) {
 			div.parentNode.removeChild(div);
 		}
 
-        document.getElementById('div').onclick = function() {
-		    document.getElementById('div-settings').style.display = 'block';
+		document.getElementById('div').onclick = function() {
+			document.getElementById('div-settings').style.display = 'block';
 			document.getElementById('img-settings').style.display = 'none';
 			var main = document.getElementById('main');
 			var div  = document.createElement('div');
@@ -149,13 +150,12 @@
 			};
 
 			div.appendChild(button);
-
 			main.appendChild(div);
 			
-        };
+		};
 
-        document.getElementById('li').onclick = function() {
-		    document.getElementById('div-settings').style.display = 'block';
+		document.getElementById('li').onclick = function() {
+			document.getElementById('div-settings').style.display = 'block';
 			document.getElementById('img-settings').style.display = 'none';
 			var main = document.getElementById('main');
 			var div  = document.createElement('div');
@@ -219,10 +219,10 @@
 
 			div.appendChild(button);
 			main.appendChild(div);
-        };
+		};
 		
 		document.getElementById('img').onclick = function() {
-		    document.getElementById('div-settings').style.display = 'none';
+			document.getElementById('div-settings').style.display = 'none';
 			document.getElementById('img-settings').style.display = 'block';
 			var main = document.getElementById('main');
 			var div  = document.createElement('div');
@@ -243,9 +243,15 @@
 			};
 
 			div.appendChild(button);
-
 			main.appendChild(div);
-			
-        };
-    };
+		};
+
+		document.getElementById('div-cancelar').onclick = function() {
+			document.getElementById('div-settings').style.display = 'none';
+		};
+
+		document.getElementById('img-cancelar').onclick = function() {
+			document.getElementById('img-settings').style.display = 'none';
+		};
+	};
 })();

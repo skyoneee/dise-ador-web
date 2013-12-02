@@ -73,7 +73,7 @@
 			
         };
 
-        document.getElementById('enviar').onclick = function() {
+        document.getElementById('div-enviar').onclick = function() {
             addDiv(ancho,alto,bgdiv,borde,margen,pad);
         };
 
