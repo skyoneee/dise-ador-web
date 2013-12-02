@@ -139,7 +139,7 @@
 			div.style.overflow = 'hidden';
 			div.style.height = '50px';
 			div.style.width = '50px';
-			div.style.border = '0';
+			div.style.border = '2px solid black';
 			div.style.background = 'green';
 			
 			var button = document.createElement("button");

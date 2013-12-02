@@ -48,11 +48,13 @@
 		height: 100%;
 		float: right;
 	}
+
 	#header .top
 	{
 		position: absolute;
 		width: 100%;
 	}
+
 	#toolbar a {
 		color: rgb(204, 204, 204);
 	}
@@ -81,6 +83,13 @@
 	input:focus
 	{
 		background-color: rgb(255, 255, 160);
+	}
+
+	.setting
+	{
+		font-family: Arial;
+		color: rgb(204, 204, 204);
+		text-align: right;
 	}
 	
 /*********************************************************************************/
